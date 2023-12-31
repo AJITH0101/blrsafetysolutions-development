@@ -1,0 +1,15 @@
+/* src/styles.css */
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../public/Roboto-Light.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+  }  
+  body {
+    font-family: 'Roboto-Light', sans-serif;
+  }
+
+
+  
