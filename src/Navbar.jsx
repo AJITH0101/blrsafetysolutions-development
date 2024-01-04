@@ -54,14 +54,14 @@ useEffect(()=>{
 
 
   const menuIconShift = ()=>{             //This function will switch menuicon 
-  setmenuLine(!menuLine)
-  setMenuBar(!menuBar) 
+  setmenuLine(!menuLine)                  //Hook to switch the icon
+  setMenuBar(!menuBar)                    //Hook to switch the vertical menu bar for small screen
    
   }
   return (
 
   <>
-    {(navBar? (<div className='lg:w-full md:w-full lg:h-20 md:h-20 sm:h-20 xs:h-20 bg-white text-black lg:flex lg:flex-row lg:justify-between md:flex md:flex-row md:justify-between'>
+    {(navBar? (<div className='  lg:w-full md:w-full lg:h-20 md:h-20 sm:h-20 xs:h-20 bg-white text-black lg:flex lg:flex-row lg:justify-between md:flex md:flex-row md:justify-between z-50'>
     
                       
                               <div className='w-60'>
@@ -92,7 +92,7 @@ useEffect(()=>{
       </div>   
       ))} 
 
-      {(menuBar ? null : (<div className=' sm:pt-6 text-lg bg-[#AD0711] w-60'>
+      {(menuBar ? null : (<div className='pt-6 text-lg bg-[#AD0711] w-60 fixed top-0 left-0 z-50 mt-20 '>
                   <div className='border-b border-white px-5 text-white'>Home</div>
                   <div className='border-b border-white px-5 text-white'>Products</div>
                   <div className='border-b border-white px-5 text-white'>Career</div>
