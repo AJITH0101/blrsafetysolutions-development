@@ -71,7 +71,7 @@ useEffect(()=>{
                               <div className='lg:flex lg:flex-row md:flex md:flex-row lg:pt-6 md:pt-6 text-lg lg:pr-8'>
                                   <div className='lg:px-5 md:px-5 text-[#00171f]'>Home</div>
                                   <div className='lg:px-5 md:px-5 text-[#00171f]'>Products</div>
-                                  <div className='lg:px-5 md:px-5 text-[#00171f]'>Career</div>
+                                  <div className='lg:px-5 md:px-5 text-[#00171f]'>Careers</div>
                                   <div className='lg:px-5 md:px-5 text-[#00171f]'>About Us</div>
                                   <div className='lg:px-5 md:px-5 text-[#00171f]'>Contact Us</div>                             
                               </div> 
@@ -95,7 +95,7 @@ useEffect(()=>{
       {(menuBar ? null : (<div className='pt-6 text-lg bg-[#AD0711] w-60 fixed top-0 left-0 z-50 mt-20 '>
                   <div className='border-b border-white px-5 text-white'>Home</div>
                   <div className='border-b border-white px-5 text-white'>Products</div>
-                  <div className='border-b border-white px-5 text-white'>Career</div>
+                  <div className='border-b border-white px-5 text-white'>Careers</div>
                   <div className='border-b border-white px-5 text-white'>About Us</div>
                   <div className='px-5 text-white'>Contact Us</div>
      </div>)
