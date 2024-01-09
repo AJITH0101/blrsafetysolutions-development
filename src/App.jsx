@@ -1,13 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Home from './Home'
-import './style.css'
+import MainRouter from './MainRouter'
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />     
+      <MainRouter />   
     </>    
   )
 }
